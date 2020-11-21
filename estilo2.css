@@ -1,0 +1,48 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgb(33, 102, 33);
+    padding: 10px;
+}
+h2{
+    color: rgb(10, 10, 10);
+}
+h3{
+    color: rgb(2, 0, 8);
+}
+p{
+    color: rgb(5, 0, 0);
+    text-transform: capitalize;
+}
+
+/**opciones de enlaces**/
+
+
+nav{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+nav ul{
+    list-style: none;
+}
+nav>ul>li{
+    float: left;
+}
+nav ul::after{
+    content:  '' ;
+    display: block;
+    clear: both;
+}
+nav ul li a{
+   display: inline-block;
+   width: 150px;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   text-align: center;
+   padding: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul li a:hover{
+    background-color: rgb(209, 43, 43);
+}

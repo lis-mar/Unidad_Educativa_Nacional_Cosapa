@@ -1,0 +1,35 @@
+/**opciones de enlaces**/
+nav{
+    width: 1350px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(5, 128, 15);
+}
+nav ul{
+    list-style: none;
+}
+nav>ul>li{
+    float: left;
+}
+nav ul::after{
+    content:  '' ;
+    display: block;
+    clear: both;
+}
+nav ul li a{
+   display: inline-block;
+   width: 220px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   text-align: center;
+   padding: 5px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul li a:hover{
+    background-color: rgb(82, 151, 88);
+}
+/**parrafo**/
+p{
+    font-size: 25px;
+    font-family: cursive;
+}
